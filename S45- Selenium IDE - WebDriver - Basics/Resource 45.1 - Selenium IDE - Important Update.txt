@@ -1,6 +1,0 @@
-Selenium IDE - Important Update
-
-Please don't worry about Selenium IDE and concepts around it.
-
-There are only two lectures about Selenium IDE in the complete course and they are there just to give an overview of automation.
-We do not use Selenium IDE in the course and it is also not used in the industry.
