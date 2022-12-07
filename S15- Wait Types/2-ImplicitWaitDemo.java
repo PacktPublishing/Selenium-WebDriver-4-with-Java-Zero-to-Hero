@@ -1,6 +1,6 @@
 package waittypes;
 
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 
 import org.junit.After;
 import org.junit.Before;
@@ -16,11 +16,11 @@ public class ImplicitWaitDemo {
 	@Before
 	public void setUp() throws Exception {
 		driver = new FirefoxDriver();
-		baseUrl = "https://letskodeit.teachable.com/pages/practice";
+		baseUrl = "https://letskodeit.teachable.com/";
 
 		// Maximize the browser's window
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
 	}
 	
 	@Test()

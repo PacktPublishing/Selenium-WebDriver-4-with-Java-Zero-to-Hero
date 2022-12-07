@@ -1,11 +1,10 @@
 Selenium WebDriver Working Versions
 
-
 In the next lectures, I will show how to set up. Please use these version for the setup in next lectures.
 
 Please use these versions:
 
-Selenium WebDriver 3.141.59
+Selenium WebDriver 4.0
 geckodriver Latest
 FF Latest
 Latest chromedriver and Chrome browser versions
